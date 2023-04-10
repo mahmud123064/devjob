@@ -1,0 +1,37 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Banner = () => {
+    return (
+        <div className='  sm:flex '>
+
+            <div>
+                {/* <h2 className='max-w-lg mb-6 mr-12 font-sans text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-none'> <span>One Step</span> <br /> <span>Closer To Your</span> <span className='text-blue-200'>Dream Job</span></h2>
+
+                <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p> */}
+
+
+                <h2 className='max-w-lg mb-6 mr-12 font-sans text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-none'>
+                    One Step  <br className='hidden md:block' /> Closer To Your  {' '}
+                    <br />  <span className='inline-block text-blue-400'>Dream Job</span>
+                </h2>
+                <p className=' text-base mb-3 w-11/12 text-gray-700 md:text-lg'>
+                    Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.
+                </p>
+
+                <Link><button className='btn'>Get started</button></Link>
+            </div>
+
+
+            <div >
+
+                <img src="../../../public/P3OLGJ1 copy 1.png" alt="Banner image" />
+            </div>
+
+
+        </div>
+    );
+};
+
+export default Banner;
+
