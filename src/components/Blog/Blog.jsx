@@ -23,7 +23,7 @@ const Blog = () => {
                 React.createContext() is all you need. It returns a consumer and a provider. Provider is a component that as it's names suggests provides the state to its children. It will hold the "store" and be the parent of all the components that might need that store. Consumer as it so happens is a component that consumes and uses the state. 
               </p>
             </div>
-            {/* <div>
+            <div>
               <p className='mb-4 text-xl font-medium'>
               What is a custom hook?
               </p>
@@ -33,7 +33,7 @@ const Blog = () => {
                 <br />
                 
               </p>
-            </div> */}
+            </div>
           
           </div>
           <div className='space-y-8'>
