@@ -10,7 +10,7 @@ import {
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     return (
-        <div className='bg-gray-200  py-5  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 '>
+        <div className='md:bg-gray-200 py-5  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 '>
             <div className='relative flex items-center justify-between px-auto'>
                 {/* Logo Section */}
                 <Link to='/' className='inline-flex items-center'>

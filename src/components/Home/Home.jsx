@@ -6,8 +6,8 @@ import Banner from '../Banner/Banner';
 const Home = () => {
 
     const abc = useLoaderData();
-    const {catagory_logo,name} = abc;
-    console.log(name);
+    const {catagory_logo, name} = abc;
+    // console.log(name);
     console.log(abc);
 
     // const [jobs, setJobs] = useState([]);
