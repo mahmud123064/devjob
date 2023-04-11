@@ -7,23 +7,29 @@ import "./Home.css"
 
 const Home = () => {
 
-    const catagories = useLoaderData();
+    // const catagories = useLoaderData();
     // console.log(catagories);
 
-    // const [catagories, setCatagories] = useState([]);
+    const [catagories, setCatagories] = useState([]);
 
-    // useEffect(() => {
-    //     fetch('catagory.json')
-    //         .then(res => res.json())
-    //         .then(data => setCatagories(data))
-    // }, [])
-
-    const [features, setFeatures] = useState([]);
     useEffect(() => {
-        fetch(`/features.json`)
+        fetch('catagory.json')
             .then(res => res.json())
-            .then(data => setFeatures(data))
-    }, []);
+            .then(data => setCatagories(data))
+    }, [])
+
+    // const [features, setFeatures] = useState([]);
+    // useEffect(() => {
+    //     fetch(`/features.json`)
+    //         .then(res => res.json())
+    //         .then(data => setFeatures(data))
+    // }, []);
+
+    //////////////////////////////////////
+
+   const features = useLoaderData()
+//    console.log(features);
+
 
     return (
         <div className=''>

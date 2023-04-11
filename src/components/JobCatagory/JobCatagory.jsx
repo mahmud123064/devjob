@@ -2,6 +2,7 @@ import React from 'react';
 import "./JobCatagory.css"
 
 const JobCatagory = ({catagory}) => {
+    console.log(catagory);
 
     const {catagory_logo, name, job_available} = catagory;
     return (

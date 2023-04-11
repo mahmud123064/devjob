@@ -13,6 +13,8 @@ import Statistics from './components/Statistics/statistics';
 import Jobs from './components/Jobs/Jobs';
 import Blog from './components/Blog/Blog';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import JobDetails from './components/JobDetails/JobDetails';
+
 
 const router = createBrowserRouter([
   {
@@ -23,7 +25,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-         loader:() => fetch('/catagory.json'),
+         loader:() => fetch('/features.json'),
       },
       {
         path: "/statistics",
@@ -36,6 +38,17 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog></Blog>
+      },
+      {
+        path:"/details/:Id",
+        element:<JobDetails></JobDetails>,
+        loader: async({params}) => {
+          const res = await fetch(`/features.json`)
+          const data = await res.json()
+          const abc = data.find (fd => fd.id == params.Id)
+          return abc
+        }
+        
       }
     ]
   },

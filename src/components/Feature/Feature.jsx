@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 const Feature = ({ feature }) => {
     const { id, company_name, company_logo, job_title, remote_or_onsite,
         fulltime_or_parttime, location, salary } = feature;
-    console.log(feature);
+    // console.log(feature);
+
     return (
         <div className='card text-start shadow-lg'>
             <img className='mb-2' src={company_logo} alt="" />
@@ -20,7 +21,7 @@ const Feature = ({ feature }) => {
                 <p className='me-6'>{location}</p>
                 <p>{salary}</p>
             </div>
-            <button className='btn'>View Details</button>
+            <Link to={`/details/${id}`}> <button  className='btn'>View Details</button></Link>
         </div>
     );
 };
