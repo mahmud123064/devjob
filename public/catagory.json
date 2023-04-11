@@ -1,8 +1,26 @@
 
 [
     {
-       "catagory_logo" : "/src/assets/Icons/business 1.png",
-       "name":"business",
+       "catagory_logo" : "https://ibb.co/9vG4yYZ",
+       "name":"Creative Design",
        "job_available": "200 jobs available"
-    }
+    },
+    {
+       "catagory_logo" : "https://ibb.co/RzYDgxc",
+       "name":"accounts & Finance",
+       "job_available": "100 jobs available"
+    },
+    {
+       "catagory_logo" : "https://ibb.co/YPX8PZN",
+       "name":"Merketing & Sales ",
+       "job_available": "150 jobs available"
+    },
+    {
+        "catagory_logo" : "https://ibb.co/ChxG3bL",
+        "name":"Engineering Job ",
+        "job_available": "224 jobs available"
+     }
 ]
+
+
+

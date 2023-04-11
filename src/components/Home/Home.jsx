@@ -6,22 +6,23 @@ import Banner from '../Banner/Banner';
 const Home = () => {
 
     const abc = useLoaderData();
-    // const {catagory_logo,name} = abc;
-    // console.log(name);
-    // console.log(abc);
+    const {catagory_logo,name} = abc;
+    console.log(name);
+    console.log(abc);
 
-    const [jobs, setJobs] = useState([]);
+    // const [jobs, setJobs] = useState([]);
 
-    useEffect(()=>{
-        fetch('catagory.json')
-        .then( res => res.json())
-        .then(data => console.log(data))
-    },[])
+    // useEffect(()=>{
+    //     fetch('catagory.json')
+    //     .then( res => res.json())
+    //     .then(data => setJobs(data))
+    // },[])
+
+    // console.log(jobs);
     return (
         <div className=''>
-            {/* <img src={catagory_logo} alt="" /> */}
             <Banner></Banner>
-            <p>{jobs.job_available}</p>
+            {/* <p>{jobs.job_available}</p> */}
         </div>
     );
 };
