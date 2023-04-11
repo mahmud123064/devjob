@@ -17,7 +17,7 @@ const Statistics = () => {
     return (
        
         <div>
-            <PieChart width={400} height={300} className='mx-auto'>
+            <PieChart width={300} height={300} className='mx-auto'>
                 <Pie
                     dataKey="value"
                     isAnimationActive={true}

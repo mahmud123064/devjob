@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
-        <div className='  sm:flex justify-start'>
+        <div className='  sm:flex justify-start md:text-start '>
 
             <div className=''>
                 {/* <h2 className='max-w-lg mb-6 mr-12 font-sans text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-none'> <span>One Step</span> <br /> <span>Closer To Your</span> <span className='text-blue-200'>Dream Job</span></h2>
