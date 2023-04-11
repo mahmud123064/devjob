@@ -14,7 +14,7 @@ const Header = () => {
             <div className='relative flex items-center justify-between px-auto'>
                 {/* Logo Section */}
                 <Link to='/' className='inline-flex items-center'>
-                    <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>
+                    <span className='ml-2 text-xl font-bold tracking-wide text-purple-800'>
                         devJobs
                     </span>
                 </Link>
@@ -76,8 +76,8 @@ const Header = () => {
                                     <div>
                                         <Link to='/' className='inline-flex items-center'>
                                             <BoltIcon className='h-6 w-6 text-blue-500' />
-                                            <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                                            devJobs
+                                            <span className='ml-2 text-xl font-bold tracking-wide text-purple-800 uppercase'>
+                                                devJobs
                                             </span>
                                         </Link>
                                     </div>
@@ -100,19 +100,19 @@ const Header = () => {
                                                 Home
                                             </Link>
                                         </li>
-                                       
-                                       <li>
-                                        <Link>
-                                        <button></button>
-                                        </Link>
-                                       </li>
+
+                                        <li>
+                                            <Link>
+                                                <button></button>
+                                            </Link>
+                                        </li>
 
                                         <li>
                                             <Link
                                                 to='/statistics'
                                                 className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                             >
-                                               Statistics
+                                                Statistics
                                             </Link>
                                         </li>
                                         <li>
@@ -128,10 +128,10 @@ const Header = () => {
                                                 to='/blog'
                                                 className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                             >
-                                                 Blog
+                                                Blog
                                             </Link>
                                         </li>
-                                    </ul>   
+                                    </ul>
                                 </nav>
                                 <button className='btn'>Star Applying</button>
                             </div>

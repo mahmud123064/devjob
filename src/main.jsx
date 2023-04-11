@@ -18,24 +18,24 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Admin></Admin>,
-    errorElement:<ErrorPage></ErrorPage>,
-    children:[
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
       {
-       path: "/",
-       element:<Home></Home>,
-      //  loader:() => fetch('/catagory.json'),
+        path: "/",
+        element: <Home></Home>,
+         loader:() => fetch('/catagory.json'),
       },
       {
-        path:"/statistics",
-        element:<Statistics></Statistics>
+        path: "/statistics",
+        element: <Statistics></Statistics>
       },
       {
-        path:"/jobs",
-        element:<Jobs></Jobs>
+        path: "/jobs",
+        element: <Jobs></Jobs>
       },
       {
-      path:"/blog",
-      element:<Blog></Blog>
+        path: "/blog",
+        element: <Blog></Blog>
       }
     ]
   },

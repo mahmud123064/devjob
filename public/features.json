@@ -1,111 +1,110 @@
-
-     [
-        {
-            "id": 1,
-            "company_logo": "https://ibb.co/pJV0zxJ",
-            "job_title": "Software Engineer",
-            "company_name": "Google",
-            "remote_or_onsite": "Remote",
-            "location": "San Francisco, CA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$120,000 - $150,000",
-            "job_description": "We are looking for a talented software engineer to join our team and help us build cutting-edge software products.",
-            "job_responsibility": "Responsibilities include designing, developing, and testing software solutions, collaborating with cross-functional teams to identify and solve complex problems, and staying up-to-date with emerging technologies and industry trends.",
-            "educational_requirements": "Bachelor's or Master's degree in Computer Science or a related field",
-            "experiences": "3+ years of experience in software engineering",
-            "contact_information": {
-                "phone": "555-123-4567",
-                "email": "jobs@abccompany.com"
-            }
-        },
-        {
-            "id": 2,
-            "company_logo": "https://example.com/logo.png",
-            "job_title": "Product Manager",
-            "company_name": "XYZ Company",
-            "remote_or_onsite": "Onsite",
-            "location": "New York, NY",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$130,000 - $160,000",
-            "job_description": "We are seeking a talented and experienced product manager to lead the development and launch of new products.",
-            "job_responsibility": "Responsibilities include conducting market research and competitive analysis, developing product strategies, collaborating with cross-functional teams to drive product development, and managing product launch and marketing campaigns.",
-            "educational_requirements": "Bachelor's or Master's degree in Business Administration, Marketing, or a related field",
-            "experiences": "5+ years of experience in product management",
-            "contact_information": {
-                "phone": "555-234-5678",
-                "email": "jobs@xyzcompany.com"
-            }
-        },
-        {
-            "id": 3,
-            "company_logo": "https://example.com/logo.png",
-            "job_title": "Marketing Manager",
-            "company_name": "123 Company",
-            "remote_or_onsite": "Remote",
-            "location": "Los Angeles, CA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$100,000 - $130,000",
-            "job_description": "We are looking for a talented marketing manager to help us drive growth and engagement for our products and services.",
-            "job_responsibility": "Responsibilities include developing and executing marketing campaigns, analyzing and reporting on campaign performance, collaborating with cross-functional teams to drive growth and engagement, and staying up-to-date with emerging marketing trends and technologies.",
-            "educational_requirements": "Bachelor's or Master's degree in Marketing, Communications, or a related field",
-            "experiences": "5+ years of experience in marketing",
-            "contact_information": {
-                "phone": "555-345-6789",
-                "email": "jobs@123company.com"
-            }
-        },
-        {
-            "id": 4,
-            "company_logo": "https://example.com/logo.png",
-            "job_title": "Sales Representative",
-            "company_name": "XYZ Company",
-            "remote_or_onsite": "Onsite",
-            "location": "Chicago, IL",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$70,000 - $90,000",
-            "job_description": "We are seeking a highly motivated sales representative to join our team and help us drive revenue growth.",
-            "job_responsibility": "Responsibilities include identifying and pursuing new sales opportunities, managing customer relationships, conducting product demos and presentations, and achieving sales targets.",
-            "educational_requirements": "Bachelor's degree in Business Administration, Marketing, or a related field",
-            "experiences": "2+ years of experience in sales",
-            "contact_information": {
-                "phone": "555-456-7890",
-                "email": "jobs@xyzcompany.com"
-            }
-        },
-        {
-            "id": 5,
-            "company_logo": "https://example.com/logo.png",
-            "job_title": "Graphic Designer",
-            "company_name": "ABC Company",
-            "remote_or_onsite": "Remote",
-            "location": "Seattle, WA",
-            "fulltime_or_parttime": "Part-time",
-            "salary": "$40 - $50 per hour",
-            "job_description": "We are seeking a talented graphic designer to create engaging visual designs for our marketing campaigns and product launches.",
-            "job_responsibility": "Responsibilities include creating visual designs for marketing campaigns, collaborating with cross-functional teams to develop design concepts, and staying up-to-date with emerging design trends and technologies.",
-            "educational_requirements": "Bachelor's or Master's degree in Graphic Design or a related field",
-            "experiences": "2+ years of experience in graphic design",
-            "contact_information": {
-                "phone": "555-567-8901",
-                "email": "jobs@abccompany.com"
-            }
-        },
-        {
-            "id": 6,
-            "company_logo": "https://example.com/logo.png",
-            "job_title": "Data Analyst",
-            "company_name": "456 Company",
-            "remote_or_onsite": "Onsite",
-            "location": "Boston, MA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$90,000 - $120,000",
-            "job_description": "We are seeking a talented data analyst to help us analyze and interpret large data sets and provide insights to drive business growth.",
-            "job_responsibility": "Responsibilities include collecting and analyzing data, developing and maintaining data models and visualizations, collaborating with cross-functional teams to identify trends and insights, and staying up-to-date with emerging data analysis tools and technologies.",
-            "educational_requirements": "Bachelor's or Master's degree in Statistics, Mathematics, or a related field",
-            "experiences": "3+ years of experience in data analysis",
-            "contact_information": {
-                "phone": "555-678-9012",
-                "email": "jobs@456company.com"
-            }
+[
+    {
+        "id": 1,
+        "company_logo": "./All Images/google-1-1 1.png",
+        "job_title": "Software Engineer",
+        "company_name": "Google",
+        "remote_or_onsite": "Remote",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are looking for a talented software engineer to join our team and help us build cutting-edge software products.",
+        "job_responsibility": "Responsibilities include designing, developing, and testing software solutions, collaborating with cross-functional teams to identify and solve complex problems, and staying up-to-date with emerging technologies and industry trends.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or a related field",
+        "experiences": "3+ years of experience in software engineering",
+        "contact_information": {
+            "phone": "555-123-4567",
+            "email": "jobs@abccompany.com"
         }
-    ]
+    },
+    {
+        "id": 2,
+        "company_logo": "./All Images/netflix-4 1.png",
+        "job_title": "Product Manager",
+        "company_name": "Netflix",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$130,000 - $160,000",
+        "job_description": "We are seeking a talented and experienced product manager to lead the development and launch of new products.",
+        "job_responsibility": "Responsibilities include conducting market research and competitive analysis, developing product strategies, collaborating with cross-functional teams to drive product development, and managing product launch and marketing campaigns.",
+        "educational_requirements": "Bachelor's or Master's degree in Business Administration, Marketing, or a related field",
+        "experiences": "5+ years of experience in product management",
+        "contact_information": {
+            "phone": "555-234-5678",
+            "email": "jobs@xyzcompany.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "./All Images/tesla-9 1.png",
+        "job_title": "Marketing Manager",
+        "company_name": "Tesla",
+        "remote_or_onsite": "Remote",
+        "location": "Los Angeles, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$100,000 - $130,000",
+        "job_description": "We are looking for a talented marketing manager to help us drive growth and engagement for our products and services.",
+        "job_responsibility": "Responsibilities include developing and executing marketing campaigns, analyzing and reporting on campaign performance, collaborating with cross-functional teams to drive growth and engagement, and staying up-to-date with emerging marketing trends and technologies.",
+        "educational_requirements": "Bachelor's or Master's degree in Marketing, Communications, or a related field",
+        "experiences": "5+ years of experience in marketing",
+        "contact_information": {
+            "phone": "555-345-6789",
+            "email": "jobs@123company.com"
+        }
+    },
+    {
+        "id": 4,
+        "company_logo": "./All Images/Group 10021.png",
+        "job_title": "Sales Representative",
+        "company_name": "Airbnb",
+        "remote_or_onsite": "Onsite",
+        "location": "Chicago, IL",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$70,000 - $90,000",
+        "job_description": "We are seeking a highly motivated sales representative to join our team and help us drive revenue growth.",
+        "job_responsibility": "Responsibilities include identifying and pursuing new sales opportunities, managing customer relationships, conducting product demos and presentations, and achieving sales targets.",
+        "educational_requirements": "Bachelor's degree in Business Administration, Marketing, or a related field",
+        "experiences": "2+ years of experience in sales",
+        "contact_information": {
+            "phone": "555-456-7890",
+            "email": "jobs@xyzcompany.com"
+        }
+    },
+    {
+        "id": 5,
+        "company_logo": "./All Images/google-1-1 1.png",
+        "job_title": "Graphic Designer",
+        "company_name": "Google",
+        "remote_or_onsite": "Remote",
+        "location": "Seattle, WA",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$40 - $50 per hour",
+        "job_description": "We are seeking a talented graphic designer to create engaging visual designs for our marketing campaigns and product launches.",
+        "job_responsibility": "Responsibilities include creating visual designs for marketing campaigns, collaborating with cross-functional teams to develop design concepts, and staying up-to-date with emerging design trends and technologies.",
+        "educational_requirements": "Bachelor's or Master's degree in Graphic Design or a related field",
+        "experiences": "2+ years of experience in graphic design",
+        "contact_information": {
+            "phone": "555-567-8901",
+            "email": "jobs@abccompany.com"
+        }
+    },
+    {
+        "id": 6,
+        "company_logo": "./All Images/tesla-9 1.png",
+        "job_title": "Data Analyst",
+        "company_name": "Tesla",
+        "remote_or_onsite": "Onsite",
+        "location": "Boston, MA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$90,000 - $120,000",
+        "job_description": "We are seeking a talented data analyst to help us analyze and interpret large data sets and provide insights to drive business growth.",
+        "job_responsibility": "Responsibilities include collecting and analyzing data, developing and maintaining data models and visualizations, collaborating with cross-functional teams to identify trends and insights, and staying up-to-date with emerging data analysis tools and technologies.",
+        "educational_requirements": "Bachelor's or Master's degree in Statistics, Mathematics, or a related field",
+        "experiences": "3+ years of experience in data analysis",
+        "contact_information": {
+            "phone": "555-678-9012",
+            "email": "jobs@456company.com"
+        }
+    }
+]
