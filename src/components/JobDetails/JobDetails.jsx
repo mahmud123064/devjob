@@ -1,6 +1,6 @@
 import React from 'react';
 import "./JobDetails.css"
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import {
   CurrencyDollarIcon,
   BriefcaseIcon,
@@ -50,6 +50,7 @@ const JobDetails = () => {
           <p></p>
 
         </div>
+
         <div className=' bg-gray-200 p-6 rounded-lg'>
           <h3 className='text-center mb-4 font-bold' >Job Details</h3>
           <hr className='hr mb-3' />
@@ -82,9 +83,8 @@ const JobDetails = () => {
             <p> <span>Address : </span>{location
             }</p>
           </div>
+       <Link to={"/jobs"}><button className='btn m-6 '>Apply Now</button></Link>
         </div>
-
-
       </div>
 
     </div>
