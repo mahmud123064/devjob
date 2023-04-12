@@ -10,7 +10,6 @@ import {
 } from '@heroicons/react/24/solid'
 
 const JobDetails = () => {
-
   const featureData = useLoaderData();
   const {
     company_name,
@@ -24,11 +23,10 @@ const JobDetails = () => {
     phone,
     email,
     location
-
-
-
   } = featureData;
   console.log(featureData);
+
+
 
   return (
     <div className=' '>
@@ -55,35 +53,35 @@ const JobDetails = () => {
           <h3 className='text-center mb-4 font-bold' >Job Details</h3>
           <hr className='hr mb-3' />
 
-          <div className='flex mb-4'>
+          <div className='flex mb-4 gap-2'>
             <CurrencyDollarIcon className='icon opacity-50' />
             <p> <span className='font-bold'>Salary : </span> {salary}</p>
           </div>
 
-          <div className='flex mb-4'>
-            <BriefcaseIcon className='icon opacity-50' />
+          <div className='flex mb-4 gap-2'>
+            <BriefcaseIcon className='icon opacity-50 ' />
             <p> <span className='font-bold'>Job Title : </span> {job_title} </p>
           </div>
 
           <p className='font-bold text-center mb-2'>Contact Information</p>
           <hr className='hr mb-3' />
 
-          <div className='flex mb-4'>
+          <div className='flex mb-4 gap-2'>
             <PhoneIcon className='icon' />
             <p> <span className='font-bold'>Phone : </span>{contact_information.phone} </p>
           </div>
 
-          <div className='flex mb-4'>
+          <div className='flex mb-4 gap-2'>
             <EnvelopeIcon className='icon' />
-            <p> <span> Email :</span> {contact_information.email}</p>
+            <p> <span className='font-bold'> Email :</span> {contact_information.email}</p>
           </div>
 
-          <div className='flex'>
+          <div className='flex gap-2'>
             <MapPinIcon className='icon' />
-            <p> <span>Address : </span>{location
+            <p> <span className='font-bold'>Address : </span>{location
             }</p>
           </div>
-       <Link to={"/jobs"}><button className='btn m-6 '>Apply Now</button></Link>
+       <Link to={`/jobs`}><button  className='btn m-6 '>Apply Now</button></Link>
         </div>
       </div>
 
