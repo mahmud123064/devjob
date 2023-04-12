@@ -3,3 +3,21 @@
     background-repeat: no-repeat;
     
 }
+
+.details{
+    /* display: grid ; */
+    grid-template-columns:5fr 2fr;
+    margin-right: 20px 30px 20px 30px;
+    /* margin: 10px 5px; */
+}
+
+.hr{
+    border-bottom: 1px solid gray;
+
+}
+.icon{
+    width: 18px;
+    height: 18px;
+    
+  
+}

@@ -45,8 +45,8 @@ const router = createBrowserRouter([
         loader: async({params}) => {
           const res = await fetch(`/features.json`)
           const data = await res.json()
-          const abc = data.find (fd => fd.id == params.Id)
-          return abc
+          const detail = data.find (fd => fd.id == params.Id)
+          return detail
         }
         
       }
